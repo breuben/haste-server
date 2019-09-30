@@ -1,5 +1,5 @@
 body {
-	background: #002B36;
+	background: #252829;
 	padding: 20px 50px;
 	margin: 0px;
 }
@@ -13,10 +13,14 @@ textarea {
 	padding: 0px;
 	width: 100%;
 	height: 100%;
-	font-family: monospace;
+	font-family: "Consolas", monospace;
 	outline: none;
 	resize: none;
 	font-size: 13px;
+}
+
+pre, code {
+	font-family: "Consolas", monospace;
 }
 
 /* the line numbers */
@@ -29,7 +33,7 @@ textarea {
 	left: 0px;
 	width: 30px; /* 30 to get 20 away from box */
 	font-size: 13px;
-	font-family: monospace;
+	font-family: "Consolas", monospace;
 	text-align: right;
 }
 
@@ -62,11 +66,12 @@ textarea {
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+	background: #3c4141;
+
 }
 
 #box2 {
-	background: #08323c;
+	background: #324141;
 	font-size: 0px;
 	padding: 0px 5px;
 }
