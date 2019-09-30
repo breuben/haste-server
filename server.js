@@ -28,7 +28,7 @@ if (config.logging) {
     detail = config.logging[i];
     type = detail.type;
     delete detail.type;
-    winston.add(winston.transports[type], detail);
+    winston.add(new winston.transports[type], detail);
   }
 }
 
